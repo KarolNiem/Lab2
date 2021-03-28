@@ -1,10 +1,5 @@
-def listToString(s):
-    # initialize an empty string
-    str1 = ""
-
-    # traverse in the string
-    for ele in s:
-        str1 += ele
-
-        # return string
-    return str1
+def listToString(inputList):
+    outputString = ""
+    for i in inputList:
+        outputString += i
+    return outputString
